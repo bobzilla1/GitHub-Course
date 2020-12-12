@@ -70,15 +70,15 @@ void OwnedArrayComponent::buttonClicked(Button *buttonThatWasClicked)
 {
 	if (buttonThatWasClicked == buttons.getFirst())
 	{
-		DBG( "you clicked the first button" );
+		DBG( "you clicked the first button!" );
 	}
 	else if (buttonThatWasClicked == buttons.getLast())
 	{
-		DBG( "you clicked the last button" );
+		DBG( "you clicked the last button!" );
 	}
 	else
 	{
-		DBG( "you clicked some other button" );
+		DBG( "you clicked some other button!" );
 	}
 }
 
