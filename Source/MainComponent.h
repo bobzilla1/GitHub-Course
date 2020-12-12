@@ -54,17 +54,17 @@ struct MyComp : Component
 
 	void mouseEnter(const MouseEvent& e) override 
 	{
-		DBG( "MyComp mouseEnter" << counter);
+		DBG( "MyComp mouseEnter" << counter );
 		++counter;
 	}
 	void mouseExit(const MouseEvent& e) override
 	{
-		DBG( "MyComp mouseExit" << counter);
+		DBG( "MyComp mouseExit" << counter );
 		++counter;
 	}
 	void mouseMove(const MouseEvent& e) override
 	{
-		DBG("MyComp mouseMove" << counter);
+		DBG( "MyComp mouseMove" << counter );
 		++counter;
 	}
 private:
@@ -103,7 +103,7 @@ public:
 	}
 	void mouseDown(const MouseEvent& e) override
 	{
-		DBG("you clicked the mouse");
+		DBG( "you clicked the mouse" );
 	}
 
 private:
