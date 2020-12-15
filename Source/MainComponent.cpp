@@ -70,15 +70,15 @@ void OwnedArrayComponent::buttonClicked(Button *buttonThatWasClicked)
 {
 	if (buttonThatWasClicked == buttons.getFirst())
 	{
-		DBG( "you MAJOR clicked the first button!" );
+		DBG( "you FINAL RETURN clicked the first button!" );
 	}
 	else if (buttonThatWasClicked == buttons.getLast())
 	{
-		DBG( "you MAJOR clicked the last button!" );
+		DBG( "you FINAL RETURN clicked the last button!" );
 	}
 	else
 	{
-		DBG( "you MAJOR clicked some other button!" );
+		DBG( "you FINAL RETURN clicked some other button!" );
 	}
 }
 
